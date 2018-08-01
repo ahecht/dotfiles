@@ -1,0 +1,18 @@
+[
+  { "keys": ["command+r"], "command": "tagtestmenu" },
+  { "keys": ["ctrl+shift+alt+3"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Set Syntax: "} },
+  { "keys": ["ctrl+shift+alt+h"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Set Syntax: <ev> HTML"} },
+  { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["command+alt+ctrl+d"], "command": "toggle_side_bar"},
+  { "keys": ["ctrl+enter"], "command": "insert_snippet", "args": {"name": "Packages/User/br.sublime-snippet"} },
+  { "keys": ["super+ctrl+r"], "command": "reveal_in_side_bar"},
+  { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
+  { "keys": ["f8"], "command": "permute_lines", "args": {"operation": "unique"} },
+  { "keys": ["ctrl+shift+v"], "command": "validate_ev" },
+  { "keys": ["ctrl+shift+m"], "command": "shell_command", "args": {"command":"echo 'test'"} },
+  { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+  { "keys": ["super+alt+p"], "command": "copy_path" },
+  { "keys": ["super+shift+ctrl+s"], "command": "sftp_switch_config", "args": {"paths": []} },
+  { "keys": ["super+shift+u"], "command": "sftp_upload_file" }
+]
